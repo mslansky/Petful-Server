@@ -91,6 +91,15 @@ const cats = [
     name: 'Belatrix',
     story: 'might have previously been a voldemort supporter, a little bit shifty'
   },
+  {
+    age: 12,
+    breed: 'Maine Coon',
+    description: 'white long hair cat with pink nose and long whiskers',
+    gender: 'Male',
+    imageURL: 'https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
+    name: 'Kris Kringle',
+    story: 'Seems to have a knack for telling if you are naughty or nice'
+  }
 
   
 ];

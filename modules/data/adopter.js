@@ -2,9 +2,16 @@
 
 const adopter = [
   'Harvey',
-  'Mayor Lewis',
   'Willie', 
-  'Penny'
+  'Penny',
+  'Leah',
+  'Emily',
+  'Gus',
+  'Robin',
+  'Clint',
+  'Marnie',
+  'Ken',
+  'Shane'
 ];
 
 module.exports = adopter;

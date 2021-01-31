@@ -93,6 +93,15 @@ const dogs = [
     name: 'Princess Leia',
     story: 'missing her home planet of Alderaan'
   },
+  {
+    age: 6,
+    breed: 'Pomeranian',
+    description: 'white long hair dog with long pink tongue',
+    gender: 'Male',
+    imageURL: 'https://images.unsplash.com/photo-1532627744246-d88dcbcf9541?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80',
+    name: 'Grilled Cheese',
+    story: 'is a World Champion hot-dog eating contestant'
+  }
 
 ];
 

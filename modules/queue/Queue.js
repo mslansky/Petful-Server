@@ -1,5 +1,5 @@
 'use strict';
-//change NODE ? EDITS
+
 class _Node {
   constructor(value) {
     this.value = value;
@@ -8,9 +8,9 @@ class _Node {
 }
 
 class Queue {
-  constructor(value) {
-    this.value = value;
-    this.next = null;
+  constructor() {
+    this.first = null;
+    this.last = null;
   }
 
   enqueue(data) {
@@ -57,4 +57,4 @@ class Queue {
   }
 }
 
-module.exports = Queue;
+module.exports = {_Node, Queue, Array};

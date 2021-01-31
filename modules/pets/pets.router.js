@@ -7,10 +7,24 @@ const People = require('../people/people.service');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
+router.get('/cats', (req, res) => {
   
-  Pets.getAll(req.param.type);
+  Pets.getAll('cats');
 });
+
+router.get('/dogs', (req, res) => {
+  
+  res.status(200).json(Pets.getAll('dogs'));
+});
+
+router.get('/dogs/next', (req, res) => {
+  res.status(200).json(Pets.get('dogs'));
+});
+
+router.get('/cats/next', (req, res) => {
+  res.status(200).json(Pets.get('cats'));
+});
+
 
 router.delete('/', json, (req, res) => {
   
