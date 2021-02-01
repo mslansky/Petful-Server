@@ -62,7 +62,7 @@ const cats = [
     gender: 'Female',
     imageURL: 'https://images.unsplash.com/photo-1582725461742-8ecd962c260d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
     name: 'Pumpkin',
-    story: 'Rescued orphans from a well by altering the town officers! A true hero!'
+    story: 'Rescued orphans from a well by alerting the town officers! A true hero!'
   },
   {
     age: 9,

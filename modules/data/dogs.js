@@ -73,7 +73,7 @@ const dogs = [
     gender: 'Male',
     imageURL: 'https://images.unsplash.com/photo-1547494911-2aa9e3fad3b0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     name: 'Tink',
-    story: 'Won a Todo look alike contest for Halloween one year'
+    story: 'Won a Toto look alike contest for Halloween one year'
   },
   {
     age: 5,
