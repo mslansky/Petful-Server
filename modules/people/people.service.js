@@ -21,6 +21,12 @@ const nextPeople = () => {
   return next; 
 };
 
+const cleanupPeople = () => {
+  while(adoptersQueue.all().length > 4){
+    adoptersQueue.dequeue();
+  }
+};
+
 
 
 module.exports = {
@@ -30,6 +36,7 @@ module.exports = {
   },
 
   push(person) {
+    cleanupPeople();
     // Add a person to the queue.
     adoptersQueue.enqueue(person);
   },
